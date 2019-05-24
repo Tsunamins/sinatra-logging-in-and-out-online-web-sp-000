@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="stylesheets/bootstrap.css" type="text/css">  
   </head>
   <body id="page-top">
-    <p>Welcome <%= params[:username]</p>
-    <p><%= params[:balance]</p>
+    <p>Welcome <%= @current.username</p>
+    <p><%= @current.balance</p>
       
     <a href="/logout">Log Out</a>
    
